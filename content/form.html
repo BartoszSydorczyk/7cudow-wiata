@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style/form.css" type="text/css" rel="stylesheet">
+    <title>Ankieta</title>
+</head>
+<body>
+    <div class="form">
+        <form>
+            <label for="name">Imię:</label><br>
+            <input type="text" id="name" name="fname"><br>
+            <label for="lname">Nazwisko: </label><br>
+            <input type="text" id="lname" name="lname">
+            <p>Czy podoba ci się strona:</p>
+            <input type="radio" id="yes" name="fav_language" value="YES">
+            <label for="yes">Tak</label><br>
+            <input type="radio" id="no" name="fav_language" value="NO">
+            <label for="no">Nie</label><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <p>Których kierowców wybierasz:</p>
+            <input type="checkbox" id="place1" name="place1" value="Verstappen">
+            <label for="place1"> Verstappen</label><br>
+            <input type="checkbox" id="place2" name="place2" value="Schumacher">
+            <label for="place2"> Schumacher</label><br>
+            <input type="checkbox" id="place3" name="place3" value="Vettel">
+            <label for="place3"> Vettel</label>
+            <p>Czy obejrzysz Formułe 1:</p>
+            <input type="radio" id="yes2" name="fav_language" value="YES">
+            <label for="yes">Tak</label><br>
+            <input type="radio" id="no2" name="fav_language" value="NO">
+            <label for="no">Nie</label><br>
+          <div class="buttons">
+            <input class="button" type="submit" value="Wyślij">
+            <input class="button" type="reset" value="Reset">
+          </div>
+
+        </form>
+      </div>
+</body>
+</html>

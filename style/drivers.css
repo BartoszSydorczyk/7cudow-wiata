@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 64px;
+}
+h1{
+    font-size: 3.5vw;
+    text-align: center;
+}
+h3{
+    font-size: 2vw;
+}
+p{
+    font-size: 1.5vw;
+}
+li{
+    margin: 32px;
+    max-width: 45%;
+}
+.msc_img{
+    width: 177px;
+    height: 250px;
+    float: left;
+}
+.senna_img{
+    width: 261px;
+    float: left;
+    height: 250px;
+}
+.ver_img{
+    width: 250px;
+    float: left;
+    height: 250px;
+}
+.vet_img{
+    width: 154px;
+    float: left;
+    height: 250px;
+}
+.alo_img{
+    width: 200px;
+    float: left;
+    height: 250px;
+}
+.niki_img{
+    width: 215px;
+    float: left;
+    height: 250px;
+}
+.ham_img{
+    width: 167px;
+    float: left;
+    height: 250px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@media (max-width:600px) {
+        .msc_img{
+            src: url(../img/mini_msc.jpg);
+            width: 85px;
+            height: 120px;
+        }
+        .senna_img{
+            src: url(../img/mini_senna.jpg);
+            width: 125px;
+            height: 120px;
+        }
+        .ver_img{
+            src: url(../img/mini_ver.jpg);
+            width: 120px;
+            height: 120px;
+        }
+        .vet_img{
+            src: url(../img/mini_vet.jpg);
+            width: 74px;
+            height: 120px;
+        }
+        .alo_img{
+            src: url(../img/mini_alo.jpg);
+            width: 96px;
+            height: 120px;
+        }
+        .niki_img{
+            src: url(../img/mini_niki.jpg);
+            width: 103px;
+            height: 120px;
+        }
+        .ham_img{
+            src: url(../img/mini_ham.jpg);
+            width: 80px;
+            height: 120px;
+        }
+        h1{
+            font-size: 10vmin;
+        }
+        h3{
+            font-size: 8vmin;
+        }
+        p{
+            font-size: 6vmin;
+        }
+        .info{
+            margin-bottom: 10%;
+        }
+}       
+@media (max-width:1200px) {
+    h1{
+        font-size: 12vmin;
+    }
+    h3{
+        font-size: 7vmin;
+    }
+    p{
+        font-size: 4vmin;
+    }
+    .info{
+        margin-bottom: 10%;
+    }
+}
